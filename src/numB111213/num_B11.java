@@ -19,7 +19,7 @@ public class num_B11 {
 
 		System.out.printf("전체 동전의 갯수를 입력하세요. >> ");
 		int CoinNumber = input.nextInt();
-
+		input.close();
 		firstCase(CoinNumber);
 
 		secondCase(CoinNumber);
